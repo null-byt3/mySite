@@ -1,0 +1,19 @@
+body {
+ background-color: #ffffff;
+ background-image: url("../3px-tile.png");
+
+}
+
+.center {
+	text-align: center;
+}
+
+
+.gray-container {
+	width: 400px;
+    height: 400px;
+    background: #adadad;
+    border-radius: 10px;
+    border: 1.5px solid purple;
+    display: inline-block;
+}
