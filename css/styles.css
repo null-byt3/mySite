@@ -10,9 +10,9 @@ body {
 
 
 .gray-container {
-	width: 400px;
-    height: 400px;
-    background: #adadad;
+	width: 1000px;
+    height: 600px;
+    background: #ffffff;
     border-radius: 10px;
     border: 1.5px solid purple;
     display: inline-block;

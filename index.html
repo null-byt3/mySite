@@ -5,15 +5,22 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>My Site!</title>
 		<link rel="stylesheet" href="css/styles.css">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
 
 	</head>
 
 	<body>
+
 		<div class="center">
 		<div class ="gray-container">
-		<img src="https://pics.me.me/thumb_trump-thicc-blank-template-imgflip-53157035.png" style="margin:10px">
 
-		<h1>Sup?</h1>
+		<h1>Charts:</h1>
+		<div id="wrapper">
+		<canvas id="pieChart" width="400" height="400" style='float:left;'></canvas>
+		<canvas id="doughnutChart" width="400" height="400" style='float:right;'></canvas>
+		</div>
+		<script src="charts.js"></script>
 		</div>
 		</div>
 	</body>
