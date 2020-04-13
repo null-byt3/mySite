@@ -4,15 +4,37 @@ body {
 
 }
 
+
+h2 { 
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	font-size: 20px;
+}
+
+h1 { 
+	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+	text-transform: uppercase;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	font-size: 40px;
+	text-shadow: 2 2 80px rgba(0,0,0,1);
+
+}
+
+
 .center {
 	text-align: center;
 }
 
 
 .gray-container {
+	background-color: #ffffff;
+	background-image: url("https://www.transparenttextures.com/patterns/tileable-wood.png");
 	width: 1000px;
     height: 600px;
-    background: #ffffff;
     border-radius: 10px;
     border: 1.5px solid purple;
     display: inline-block;
